@@ -88,7 +88,7 @@ describe("basics", function() {
             // write all the zeros.
             // Write it as a string so that the .length property can be checked.
             // ✏️ EDIT NEXT LINE ✏️
-            const bigNumber = ""
+            const someNumber = "e9.length "
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof bigNumber).to.equal("string");
@@ -135,7 +135,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+                  
             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);
@@ -151,7 +151,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+                
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
